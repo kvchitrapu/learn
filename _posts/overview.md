@@ -17,14 +17,33 @@ Is Low-Earth Orbit nanosatellite technology an answer? We study here the feasibi
 
 ## Description
 <details><summary>Nanosatellites</summary>
-| Altitude      | Space object |
-| ----------- | ----------- |
-| > 15,000 - 5000 km   | upper van Allen belt     |
-| 15,000 - 5000 km   | MEO     |
-| 2000 - 5000 km   | lower van Allent belt     |
-| 200 - 2000 km   | LEO        |
 <p>
-
+<table>
+    <tr>
+        <td>Altitude</td>
+        <td>Space band reservation</td>
+    </tr>
+    <tr>
+        <td>&gt;15,000 km</td>
+        <td>upper van allen belt</td>
+    </tr>
+    <tr>
+        <td>5000 - 15,000 km</td>
+        <td>MEO</td>
+    </tr>
+    <tr>
+        <td>2000 - 5000 km</td>
+        <td>lower van allen belt</td>
+    </tr>
+    <tr>
+        <td>200 - 2000 km</td>
+        <td>LEO</td>
+    </tr>
+    <tr>
+        <td>10 km</td>
+        <td>international flights</td>
+    </tr>
+</table>
 #### Nanosatellite (a separate paper) - 12 line summary
   * what are its dimensions?
   * how is it launched?
