@@ -1,5 +1,5 @@
 # Paper Outline
-Co-Authors: [Ravi Chamarti](https://www.linkedin.com/in/ravi-chamarti-804538/), [Naren Byrapuram](https://www.linkedin.com/in/narendra-byrapuram-823535/), [Kishore] (https://www.linkedin.com/in/kishorechitrapu/)
+Authors: [Ravi Chamarti](https://www.linkedin.com/in/ravi-chamarti-804538/), [Naren Byrapuram](https://www.linkedin.com/in/narendra-byrapuram-823535/), [Kishore Chitrapu](https://www.linkedin.com/in/kishorechitrapu/)
 
 Access to anyone from anywhere has been a egalitarian idealogy. Pandemic turned equal internet access into a need. It expedited the need to upgrade access to data from anywhere to anyone. 5G solution cost is high. Is Low-Earth Orbit nanosatellite technology an answer?
 We study here the feasibility of LEO as an alternative to 5G.
