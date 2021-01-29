@@ -59,15 +59,15 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Found common interests. Started researching. Ended up writing."
   links:
-    - label: "GitHub"
+    - label: "Git"
       icon: "fab fa-fw fa-github"
-      url: "https://kvchitrapu.github.io/learn/"
+      url: "https://github.com/kvchitrapu/"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://kvchitrapu.github.io/learn/"
+      url: "https://github.com/kvchitrapu/"
 
 defaults:
   # _posts
