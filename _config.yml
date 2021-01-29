@@ -72,7 +72,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -90,10 +90,20 @@ defaults:
       author_profile: true
 
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
-
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+    
 theme: jekyll-theme-minimal
