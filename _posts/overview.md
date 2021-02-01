@@ -1,22 +1,21 @@
-# Paper Outline
+# Abstract
 
 Authors: [Ravi Chamarti](https://www.linkedin.com/in/ravi-chamarti-804538/), [Naren Byrapuram](https://www.linkedin.com/in/narendra-byrapuram-823535/), [Kishore Chitrapu](https://www.linkedin.com/in/kishorechitrapu/)
 
-Access to anyone from anywhere has been an egalitarian ideology. Pandemic turned equal internet access into a need for <remote people>. It expedited the need to upgrade access to data from anywhere to anyone. 5G solution cost is high. Is Low-Earth Orbit nanosatellite technology an answer? We study here the feasibility of LEO as an alternative to 5G and Fiber.
+Internet access to anyone from anywhere has been an egalitarian ideology scheduled to be nice-to-have feature in future. Recent COVID-19 pandemic elevaed internet access in remote areas to an urgent requirement. Internet has become a key vehicle for food, health and education during the pandemic lockdown.We examine if Low-Earth Orbit (LEO) nanosatellite internet is an answer? We study here the feasibility of satellite internet as an alternative to 5G and Fiber.
 
 
-## Background
-Access to anyone from anywhere has been a egalitarian idealogy. Recently, COVID-19 pandemic turned a esoteric dream into to a need.
-Two main challenges obstruct the path to reach global high-speed internet connectedness: economic inequality and location
-reachability. We look at the internet reachability to remote aress. Mainly two types of high-speed internet connections exist: wired and wireless.
-Wired connections are cable, DSL, and fiber. Wireless internet connections are cellular 5G/4G and satellite. These
-technologies incur massive upfront investments to lay cables and build towers. A large customer base is a prerequisite to substantiate
-such costs which work put scarcely populated remote areas at disadvantage. While satellite has been a solution, it
-serves only low bandwidth with high latency. In this paper we evaluate internet connection over Low-Earth Orbit (LEO) nanosatellite.
-Is Low-Earth Orbit nanosatellite technology an answer? We study here the feasibility of LEO as an alternative to 5G.
-Access to anyone from anywhere has been an egalitarian idealogy. Recently, the COVID-19 pandemic turned an esoteric dream into a need. Two main challenges obstruct the path to reach global high-speed internet connectedness: economic inequality and location reachability. We look at the internet reachability to remote areas. Mainly two types of high-speed internet connections exist: wired and wireless. Wired connections are cable, DSL, and fiber. Wireless internet connections are cellular 5G/4G and satellite. These technologies incur massive upfront investments to lay cables and build towers. A large customer base is a prerequisite to substantiate such costs which work put scarcely populated remote areas at disadvantage. While satellite has been a solution, it serves only low bandwidth with high latency. In this paper, we evaluate internet connection over Low-Earth Orbit (LEO) nanosatellite. Is Low-Earth Orbit nanosatellite technology an answer? We study here the feasibility of LEO as an alternative to 5G.
+# Introduction
+
+Internet access to anyone from anywhere has been an egalitarian ideology scheduled to be nice-to-have feature in future. Recent COVID-19 pandemic elevaed internet access in remote areas to an urgent requirement. Internet has become a key vehicle for food, health and education during the pandemic lockdown.We examine if Low-Earth Orbit (LEO) nanosatellite internet is an answer? We study here the feasibility of satellite internet as an alternative to 5G and Fiber.
+
+High-speed internet providers confront challenges: affordability and location reachability. We dive into internet reachability to remote locations. Mainly two types of high-speed internet technologies exist: wired and wireless. Wired internet technologies are cable, DSL, and fiber. Wireless internet technologiies are cellular 5G/4G and satellite. These technologies incur massive upfront investments to lay cables and build towers. A large customer base is a prerequisite to substantiate such costs which put scarcely populated remote areas at disadvantage. While satellite has been a solution, it serves only low bandwidth with high latency. In this paper we evaluate internet connection over Low-Earth Orbit (LEO) nanosatellite. Is Low-Earth Orbit nanosatellite technology an answer? We study here the feasibility of LEO nanosatellite internet as an alternative to 5G.
 
 ## Description
+
+
+
+
 <details><summary>Nanosatellites</summary>
 <p>
 <table>
