@@ -42,7 +42,7 @@ Constellations are identical small satellites orbiting Earth in multiple planes.
 
 ### Launch
 The liftoff to the deployment of Starlink smallsats on the SpaceX Falcon9 rocket completes in 65 minutes. Satellite launch transformed from a magical event to a routine deployment. SpaceX slashed launch costs at least ten times (projected to be 1000x) employing breakthroughs especially with the reuse of engines and fairings. A launch is estimated to cost $30 million. The 70m tall Falcon9 launches in two stages:
-![Falcon9](../assets/images/falcon9.png
+![Falcon9](../assets/images/falcon9.png)
 _Source: https://asd.gsfc.nasa.gov/archive/tess/launch.html_
 #### Stage1 
 The 60 Starlink smallsats are stacked as payload in the rocker. Smallsats are powered down and assorted in the top one-third fairing of the rocket in the above picture. The bottom two-third is the booster engine with a mission to carry the payload to 65 km altitude. On completing a successful stage 1 launch, the booster returns to Earth for reuse. SpaceX’s reusable launch system technology for the first booster stage saves all nine engines. The boosters are reused up to nine times (SpaceX #). After taking additional fuel, refurbishment (10%), and payload reduction (under 40%) into consideration, SpaceX brings rocket launch cost down to $30 million. The rocket payload approximately costs $1,350/kg. For comparison, international shipping rates are approximately $15/kg. See Appendix A for launch costs. This stage completes with the main engine cutoff in about two and half minutes. The booster returns to Earth with main engines while Stage 2 heads to orbit.
