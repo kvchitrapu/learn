@@ -55,9 +55,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Trio"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Found common interests. Started researching. Ended up writing."
+  name   : "Kishore Chitrapu"
+  bio    : "Understand and share."
   links:
     - label: "Git"
       icon: "fab fa-fw fa-github"
