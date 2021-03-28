@@ -4,7 +4,7 @@ Authors: [Ravi Chamarti](https://www.linkedin.com/in/ravi-chamarti-804538/), [Na
 
 ## Abstract
 
-In 2020, the COVID-19 pandemic escalated the urgency for internet access everywhere and everyone, especially in rural areas. COVID-19 lockdowns are temporary, but the under-connected population will have a lasting impact. Low-Earth Orbit (LEO) communication satellites recently pioneered by SpaceX's Starlink demonstrated is achievabile.
+In 2020, the COVID-19 pandemic escalated the urgency for internet access everywhere and everyone, especially in rural areas. COVID-19 lockdowns are temporary, but the under-connected population will have a lasting impact. Low-Earth Orbit (LEO) communication satellites recently pioneered by SpaceX's Starlink demonstrated is achievable.
 
 With rapid breakthroughs in rocket launchers, satellites, small chips, favorable sentiments, and high investments, the LEO small satellite constellations offer a near constant low (30ms) latency is across is attainable. Low latency global internet automated driving, data centers, supply chains including freight, agriculture, and other prominent industries. This paper discusses the advantages of LEO nanosat technology feasibility, challenges ahead, and issues in the offing.
 
