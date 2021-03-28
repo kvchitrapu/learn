@@ -1,9 +1,4 @@
----
-layout: post
-title: LEO Small satellites
-published: true
-tags: Starlink smallsat
----
+{% include toc icon="cog" title="Small satellite constellations" %}
 
 ## Abstract
 
@@ -15,8 +10,12 @@ Ever since the satellite launch kickoff on Oct 4, 1957, space technology never s
 ## Orbits and Satellites
 Satellite technology has been extensively used in telecommunications, observation, and remote sensing. The primary factor in satellite technology is orbital distance. Satellite orbit determines
 satellite size, satellite speed, radiofrequency, and satellite count. For communication purposes, there are mainly two low orbits for satellites:
+
+![Orbits](../assets/images/satellites-orbits.png)
+
 ### Geostationary orbit (GEO)
 About sixteen percent of the current satellite population is parked in GEO. As shown in the above figure, the orbit is aligned with the equator and is 35,786km above sea level with orientation aligned with Earth’s rotation. The satellite orbital speed is aligned with Earth. It serves communication systems and Global Positioning Systems (GPS).  The satellites launched into this orbit have the highest failure rate. GEO satellite life expectancy is from seven to fifteen years (Northern Sky Research). About seventy percent of the satellites in this orbit have come to EOL but still are expected to be prolonged due to advanced operational efficiencies.
+
 #### Problems with satellites in GEO
 The long-distance ( > 35,000km) incurs unavoidable travel times, delivering high latency (400ms) and low bandwidth (50-100Mbps). Strong satellite signal strength has to be high to survive during travel. GEO delivers a wide coverage area. Lesser times to orbit around Earth. Fewer ground stations and concentrated equipment. The frequency spectrum is liberally spaced among competitors. As GEO satellites orbit concentric to the equator, most countries in the northern hemisphere and southern hemisphere in higher altitudes suffer interference due to dish angle pointing at the satellite. 
 Above sixty percent of GEO have aged beyond expected lifespan. GEO satellite companies are faced with a decision to replace or exhaust out these satellites. Some companies interested in continuance are replacing GEO with LEO satellites.
@@ -36,6 +35,7 @@ Thrusters for position adjustment in the orbit
 High-power phased array antennas for ground communication over Ku and Ka bands
 Optical inter-satellite links
 The phased array antennas shoot narrow beams to 27,000 kmph orbiting Earth. The satellites orbits at 400km - 2000km above sea level.
+
 ## Constellation
 
 Constellations are identical small satellites orbiting Earth in multiple planes. The smallsats are managed at scale bringing economies of scale for the owning enterprise. 
@@ -45,30 +45,34 @@ Constellations are identical small satellites orbiting Earth in multiple planes.
 ### Launch
 The liftoff to deployment of Starlink smallsats on the SpaceX Falcon9 rocket completes in 65 minutes. Satellite launch transformed from a magical event to a routine deployment. SpaceX slashed launch costs at least ten times (projected to be 1000x) employing major breakthroughs especially with reuse of engines and fairings. A launch is estimated to cost $30 million. 
 The 70m tall Falcon9 launches in two stages:
-
-Source: https://asd.gsfc.nasa.gov/archive/tess/launch.html
+![Falcon9](../assets/images/falcon9.png)
+_Source: https://asd.gsfc.nasa.gov/archive/tess/launch.html_
 #### Stage1 
 The 60 Starlink smallsats are stacked as payload in the rocker. Smallsats are powered down and assorted in the top one-third fairing of the rocket in the above picture. The bottom two-third is the booster engine with a mission to carry payload to 65 km altitude. On completing successful stage 1 launch, the booster returns to Earth for reuse .
 SpaceX’s reusable launch system technology for the first booster stage saves all nine engines. The boosters are reused up to nine times (SpaceX #). After taking additional fuel, refurbishment (10%), and payload reduction (under 40%) into consideration, SpaceX brings rocket launch cost down to $30 million. The rocket payload approximately costs $1,350/kg. For comparison, international shipping rates are approximately $15/kg. See Appendix A for launch costs. 
 This stage completes with the main engine cutoff in about two and half minutes. The booster returns back to Earth with main engines while Stage 2 heads to orbit.
 #### Stage 2
 The Stage 2 head is clam shell like “fairing” to protect smallsats from launch time excessive heat and pressure. The fairing shell peels down to Earth at the beginning of this stage. The lone engine carries the payload to orbit. At this, the Stage 2 engine takes 35 minutes to get to orbit and park starlink satellites. About 64 minutes after launch, the rocket deploys smallsats into their orbits. 
-Constellation formation
+
+### Constellation formation
 The orbiting smallsats takes 2 weeks to distance themselves and take position. Each smallsat is configured to occupy a position using:
 Orbit’s height from sea level, angle from equator and angle from a fixed space direction
 Smallsat’s angle from a fixed space direction
-The smallsats are launched initially into lower orbit. As orbital velocity decreases with altitude, the smallsat changes velocity to match with the target orbital plane. On arriving into the position, the smallsat will lock velocity. As the count of satellites locked into position increases, the constellation size increases. The constellation formation model is nicely depicted in this video (Eccli)
-### Steadystate  (TBD)
+The smallsats are launched initially into lower orbit. As orbital velocity decreases with altitude, the smallsat changes velocity to match with the target orbital plane. On arriving into the position, the smallsat will lock velocity. As the count of satellites locked into position increases, the constellation size increases. The constellation formation model is nicely depicted in {% include video id="rddTXl_7Wr8" provider="youtube" %}
+
+### Functional phase
 Once in orbit, a smallsat is a member of the constellation in routing packets from the terrestrial network. The smallsat forward packets amongst themselves for reliability and continuity of the network. 
 
-Packets flow from the edge device to Spacelink user terminal, which is a pizza sized dish antenna. Packets are encrypted at the user terminal before beaming to the smallsat. The first smallsat will inspect the destination address to route to a smallsat positioned in the same direction as the packet. The last satellite closer to the destination coordinates will beam the packet down to all user terminals in its coverage. Only the user terminal will have a decryption key to read the packet. 
-### EOL (TBD)
-After 5 years of runtime satellite parts erode due to cosmic rays. Need to be decommissioned. The satellite is maneuvered out of the orbit.
-Navigate out of orbit 
-Ready to self-burn
+Packets flow from the edge device to Spacelink user terminal, which is a pizza sized dish antenna. Packets are encrypted at the user terminal before beaming to the smallsat. The first smallsat will inspect the destination address to route to a smallsat positioned in the same direction as the packet. The last satellite closer to the destination coordinates will beam the packet down to all user terminals in its coverage. Only the user terminal will have a decryption key to read the packet.
 
-Telesat Iridium has 50, StarLink has close 3,000 ...
+{% include video id="m05abdGSOxY" provider="youtube" %}
+
+### Termination
+After 5 years of runtime satellite parts erode due to cosmic rays. Need to be decommissioned. The satellite is maneuvered out of the orbit and is ready to self-burn
+
 ## Applications
+
+A wide variety of applications are possible for smallsat internet. A few are:
 1. End-to-end secure cloud services. Datacenters/Kuiper
 2. Autonomous vehicles/Starlink
 3. Mobility market includes backhaul for 5G in COW autonomous vehicles
@@ -76,12 +80,10 @@ Telesat Iridium has 50, StarLink has close 3,000 ...
 5. Underserved rural areas (Rural Digital Opportunity Fund)
 6. Asset tracking on aircraft, ship, logistics, fleet management
 LEO small satellites bring the internet around the globe with homogenous characteristics: with predictable latency (<25ms) steady throughput 100 Mbps 100% coverage area We envision advancements will be in many areas especially in logistics, online learning, online health, and online banking. In-depth look in here.
-## What next? (Move this to summary)
-When time permits, we will expand on these topics:
-1. Packet management - routing algorithms, network management
-3 Satellite management - collision avoidance, debris, inter-constellation interfaces
+
 # Summary
 We are confident LEO small satellite technology can provide ubiquitous internet. The path is curvy ahead. LEOstat is breaking the barriers of traditional satellite communication. It has the potential to better level the field for 7 billion people around the globe. The LEOsats will play a key role in inter-data center encrypted private channels, supply chain automation, mobility automation, and natural vegetation. Is this the next big thing?
+
 References
 1. [A Basic Guide to small satellites](https://www.satelliteevolutiongroup.com/articles/leosat-April17.pdf)
 2. [NSR Insight: A Critical Assessment Of HTS Satellite Constellations – SatNews](http://clarkeinstitute.org/wp-content/uploads/2010/04/ClarkeWirelessWorldArticle.pdf)
@@ -90,13 +92,14 @@ References
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9051712)
 5.  "Starlink satellites - N2YO.com." Starlink satellites. Accessed 21 Feb. 2021.
 6.  [Launch and deployment of distributed small satellite systems - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S009457651500171X)
+7. [Burleigh, Scott C. “From Connectivity to Advanced Internet Services: A Comprehensive Review of Small Satellites Communications and Networks.” Wireless Communications and Mobile Computiing, vol. 2019] (https://www.hindawi.com/journals/wcmc/2019/6243505/)
+8. [Northern Sky Research. “Satellite EOL: No one size fits all.”](https://www.nsr.com/satellite-eol-not-one-size-fits-all/)
+9. [“SpaceX releases new details on Starlink satellite design.” SpaceX releases new details on Starlink satellite design](https://spaceflightnow.com/2019/05/15/spacex-releases-new-details-on-starlink-satellite-design/)
+10. [“Starlink.” Starlink Satellites](https://space.skyrocket.de/doc_sdat/starlink-v1-0.htm)
+11. [Union of Concerned Scientists. “UCS Satellite Database.”](https://www.ucsusa.org/resources/satellite-database#.W7WcwpMza9Y.)xs
  
 Om shanti shanti shanti
  
-
-
-
-
 
 ## Appendix
 
@@ -120,56 +123,4 @@ Comparison of internet service providers
 | Cost  |  | proportional to distance | Launching costss | Tower setup, repeater count | Launching costs, operational costs |
 | Variations | Terrain | Weather | Line of sight | Weather |
 
-## Bibliography
-1. Burleigh, Scott C. “From Connectivity to Advanced Internet Services: A Comprehensive Review of Small Satellites Communications and Networks.” Wireless Communications and Mobile Computiing, vol. 2019, https://www.hindawi.com/journals/wcmc/2019/6243505/.
-Northern Sky Research. “Satellite EOL: No one size fits all.” https://www.nsr.com/satellite-eol-not-one-size-fits-all/.
-“SpaceX releases new details on Starlink satellite design.” SpaceX releases new details on Starlink satellite design, https://spaceflightnow.com/2019/05/15/spacex-releases-new-details-on-starlink-satellite-design/.
-“Starlink.” Starlink Satellites, https://space.skyrocket.de/doc_sdat/starlink-v1-0.htm#:~:text=The%20Starlink%20satellites%20feature%20a,use%20krypton%2Dfueled%20Hall%20thrusters.
-Union of Concerned Scientists. “UCS Satellite Database.” https://www.ucsusa.org/resources/satellite-database#.W7WcwpMza9Y.
-
-To Do
-After launch ( launch + 2weeks ) 
-Before operational state
-Setup: defining Orbits, self-evaluation of coordinates, maneuvering to the designated position
-Join as constellation member
-Interlink establishment
-Ground station to smallsat membership update
-Smoke test
-
-While operational state (5 years)
-Interlink datapath
-End-to-end packet routing with updates, failure recovery
-monitoring
-Traffic management to avoid collision
-Orbital correction due to astral decay
-
-After operational state 
-Navigate out of orbit 
-Ready to self-burn
-
-
-Future Projects for this team
-Opportunities
-Power management (battery)
-Data accumulation about users, autos, satellites
-Metadata about moving objects
-
-Open Problems
-Obtain satellite for a user coordinates
-Given satellite parameters (speed, …) find geographical location it serves.
-Develop a function to give available satellites to serve a given geographical location.
-
-Solutions
-
-Setup
-Satellite database with dynamic coordinates
-
-Input
-Time of day
-User coordinates
-
-Output
-Satellite id, satellite coordinates
-Availability duration
-Overlay on a map
 
