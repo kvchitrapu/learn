@@ -1,4 +1,5 @@
-{% include toc icon="cog" title="Small satellite constellations" %}
+
+{% include toc title="Small satellite constellations" %}
 
 ## Abstract
 
@@ -81,27 +82,28 @@ A wide variety of applications are possible for smallsat internet. A few are:
 6. Asset tracking on aircraft, ship, logistics, fleet management
 LEO small satellites bring the internet around the globe with homogenous characteristics: with predictable latency (<25ms) steady throughput 100 Mbps 100% coverage area We envision advancements will be in many areas especially in logistics, online learning, online health, and online banking. In-depth look in here.
 
-# Summary
+## Summary
 We are confident LEO small satellite technology can provide ubiquitous internet. The path is curvy ahead. LEOstat is breaking the barriers of traditional satellite communication. It has the potential to better level the field for 7 billion people around the globe. The LEOsats will play a key role in inter-data center encrypted private channels, supply chain automation, mobility automation, and natural vegetation. Is this the next big thing?
 
-References
+## References
 1. [A Basic Guide to small satellites](https://www.satelliteevolutiongroup.com/articles/leosat-April17.pdf)
 2. [NSR Insight: A Critical Assessment Of HTS Satellite Constellations – SatNews](http://clarkeinstitute.org/wp-content/uploads/2010/04/ClarkeWirelessWorldArticle.pdf)
-3. [https://ec.europa.eu/growth/tools-databases/dem/monitor/sites/default/files/DTM_LEO%20-%20Spectrum%20access%20v1_0.pdf]
-4. [Large LEO satellite constellations: Will it be different this time?](
-https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9051712)
-5.  "Starlink satellites - N2YO.com." Starlink satellites. Accessed 21 Feb. 2021.
+4. [Large LEO satellite constellations: Will it be different this time?](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9051712)
+5.  [Starlink satellites - N2YO](https://www.n2yo.com/satellites/?c=52)
 6.  [Launch and deployment of distributed small satellite systems - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S009457651500171X)
-7. [Burleigh, Scott C. “From Connectivity to Advanced Internet Services: A Comprehensive Review of Small Satellites Communications and Networks.” Wireless Communications and Mobile Computiing, vol. 2019] (https://www.hindawi.com/journals/wcmc/2019/6243505/)
+7. [From Connectivity to Advanced Internet Services: A Comprehensive Review of Small Satellites Communications and Networks](https://www.hindawi.com/journals/wcmc/2019/6243505/)
 8. [Northern Sky Research. “Satellite EOL: No one size fits all.”](https://www.nsr.com/satellite-eol-not-one-size-fits-all/)
 9. [“SpaceX releases new details on Starlink satellite design.” SpaceX releases new details on Starlink satellite design](https://spaceflightnow.com/2019/05/15/spacex-releases-new-details-on-starlink-satellite-design/)
-10. [“Starlink.” Starlink Satellites](https://space.skyrocket.de/doc_sdat/starlink-v1-0.htm)
-11. [Union of Concerned Scientists. “UCS Satellite Database.”](https://www.ucsusa.org/resources/satellite-database#.W7WcwpMza9Y.)xs
+10. [Starlink Satellites](https://space.skyrocket.de/doc_sdat/starlink-v1-0.htm)
+11. [Union of Concerned Scientists. “UCS Satellite Database.”](https://www.ucsusa.org/resources/satellite-database#.W7WcwpMza9Y.)
+12. [Starlink packet routing](https://caseyhandmer.wordpress.com/2020/09/23/starlink-packet-routing/)
  
 Om shanti shanti shanti
  
 
 ## Appendix
+
+### Orbits and their altitudes
 
 | Orbital Altitude | Space band  |
 | ------------- |:-------------:| 
@@ -112,7 +114,7 @@ Om shanti shanti shanti
 | 10 km | international flights|
 
 
-Launch Costs
+### Internet provide launch costs
 
 Comparison of internet service providers 
 
