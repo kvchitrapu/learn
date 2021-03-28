@@ -6,13 +6,13 @@ Authors: [Ravi Chamarti](https://www.linkedin.com/in/ravi-chamarti-804538/), [Na
 
 In 2020, the COVID-19 pandemic escalated the urgency for internet access everywhere and everyone, especially in rural areas. COVID-19 lockdowns are temporary, but the under-connected population will have a lasting impact. Low-Earth Orbit (LEO) communication satellites recently pioneered by SpaceX's Starlink demonstrated is achievable.
 
-With rapid breakthroughs in rocket launchers, satellites, small chips, favorable sentiments, and high investments, the LEO small satellite constellations offer a near constant low (30ms) latency is across is attainable. Low latency global internet automated driving, data centers, supply chains including freight, agriculture, and other prominent industries. This paper discusses the advantages of LEO nanosat technology feasibility, challenges ahead, and issues in the offing.
+With rapid breakthroughs in rocket launchers, satellites, small chips, favorable sentiments, and high investments, the LEO small satellite constellations offers internet with a near constant low (30ms) latency. Such low latency global internet automated driving, data centers, supply chains including freight, agriculture, and other prominent industries. This paper discusses the advantages of LEO nanosat technology feasibility, challenges ahead, and issues in the offing.
 
 ## Introduction
-Ever since the satellite launch kickoff on Oct 4, 1957, space technology never stopped. By 12/31/2021, there will be 3,372 (Union of Concerned Scientists) orbiting around Earth. A burst of talent and funding in the last decade has increased low orbit constellations. Private funded space exploration, the rise of data use, nanotechnology,  robotics, and social media have created a concourse to LEO satellites. We here examine Low-Earth Orbit (LEO) small satellite technology, applications, and challenges in this paper. A sequel of this paper will give an in-depth analysis of technology, business, and ethical challenges.
+Ever since the satellite launch kickoff on Oct 4, 1957, space technology never stopped. By 12/31/2021, there will be 3,372 (Union of Concerned Scientists) orbiting around Earth. Recent private funded space exploration has created a concourse to LEO satellites. This paper gives an overview of LEO small satellites used for internet. A sequel of this paper will give an in-depth analysis of technology, business, and ethical challenges.
 
 ## Orbits and Satellites
-Satellite technology has been extensively used in telecommunications, observation, and remote sensing. The primary factor in satellite technology is orbital distance. Satellite orbit determines
+Satellite technology has been extensively used in telecommunications, observation, and remote sensing. The primary factor in satellite technology is orbital distance. The satellite orbital distace determines
 satellite size, satellite speed, radiofrequency, and satellite count. For communication purposes, there are mainly two low orbits for satellites:
 
 ![Orbits](../assets/images/satellites-orbits.png)
