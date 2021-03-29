@@ -29,7 +29,7 @@ Small form factor electronic devices, long-lasting batteries, efficient solar pa
 
 In this paper, we discuss small satellite constellations in LEO, which are referred to as LEO satellites.  
 
-## LEO satellites constellations 
+## LEO satellite constellations 
 The LEO satellite launch technology attained an unprecedented level of precision and cost efficiency in the last decade.  SpaceX Starlink, Amazon Kuiper tied to Blue Origins are two amply funded companies launching satellites. While both remain in early stages and secretive about the plans, netizens have widely gleaned SpaceX Starlink information. As of March 2021, Starlink has already launched 1,023 in 18 launches and is aiming to deploy a total of 1,440 to complete the initial constellation. According to the FCC filings, Starlink applied for 42,000 satellites to orbit in LEO to provide Internet service. Most of the information we present here is based on SpaceX Starlink satellites information on the Internet. In addition to delivering communication, satellites provide monitoring Earth and enhance space observation.
 
 ## LEO satellites
