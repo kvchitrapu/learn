@@ -67,13 +67,13 @@ After 5 years of runtime satellite parts erode due to cosmic rays. Need to be de
 A wide variety of applications are possible for smallsat internet. A few are:
 1. End-to-end secure cloud services. Datacenters/Kuiper
 2. Autonomous vehicles/Starlink
-3. Mobility market includes backhaul for 5G in COW autonomous vehicles
+3. Mobility market includes backhaul for 5G
 4. Government or military
 5. Underserved rural areas (Rural Digital Opportunity Fund)
 6. Asset tracking on aircraft, ship, logistics, fleet management
 
 ## Summary
-We are confident LEO small satellite technology can provide ubiquitous internet. The path is curvy ahead. LEOstat is breaking the barriers of traditional satellite communication. It has the potential to better level the field for 7 billion people around the globe. The LEOsats will play a key role in inter-data center encrypted private channels, supply chain automation, mobility automation, and natural vegetation. Is this the next big thing?
+We are confident LEO satellites technology can provide ubiquitous internet. The path is curvy ahead. LEO satellites is breaking the barriers of traditional satellite communication. It has the potential to better level the field for 7 billion people around the globe. The LEO satellites will play a key role in inter-data center encrypted private channels, supply chain automation, mobility automation, and natural vegetation. Is this the next big thing?
 
 ## References
 1. [A Basic Guide to small satellites](https://www.satelliteevolutiongroup.com/articles/leosat-April17.pdf)
