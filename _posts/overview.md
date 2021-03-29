@@ -1,5 +1,4 @@
 
-{% include toc title="Small satellite constellations" %}
 Authors: [Ravi Chamarti](https://www.linkedin.com/in/ravi-chamarti-804538/), [Naren Byrapuram](https://www.linkedin.com/in/narendra-byrapuram-823535/), [Kishore Chitrapu](https://www.linkedin.com/in/kishorechitrapu/)
 
 ## Abstract
