@@ -123,7 +123,7 @@ Comparison of internet service providers
 | ------------- |:-------------:| :-------------:| :-------------:| :-------------:| 
 | Speed  | 5Gbps (leased) | 5-100Mpbps | 1-2Gbps | 1-5 Gbps |
 | Latency  |  | 400ms |  | 25ms |
-| Cost  |  | proportional to distance | Launching costss | Tower setup, repeater count | Launching costs, operational costs |
+| Cost  |  proportional to distance | Launching costs | Tower setup, repeater count | Launching costs, operational costs |
 | Variations | Terrain | Weather | Line of sight | Weather |
 
 
