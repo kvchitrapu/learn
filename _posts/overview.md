@@ -95,6 +95,8 @@ We are confident LEO satellite constellation can provide ubiquitous internet. Th
 12. [Starlink packet routing](https://caseyhandmer.wordpress.com/2020/09/23/starlink-packet-routing/)
 13. [SpaceX launches Starlink satellites as it deorbits original ones](https://spacenews.com/spacex-launches-starlink-satellites-as-it-deorbits-original-ones/)
 14. [Mitigation of Orbital Debris in the New Space Age](https://docs.fcc.gov/public/attachments/DOC-363486A1.pdf)
+15. [Large LEO satellite constellations: Will it be different this time?](https://www.mckinsey.com/industries/aerospace-and-defense/our-insights/large-leo-satellite-constellations-will-it-be-different-this-time)
+
 
 Om shanti shanti shanti
  
