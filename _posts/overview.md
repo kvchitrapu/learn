@@ -52,15 +52,15 @@ The 60 Starlink satellites are stacked as payload in the rocker. Smallsats are p
 #### Stage 2
 The Stage 2 head is clamshell-like “fairing” to protect smallsats from launch time excessive heat and pressure. The fairing shell peels down to Earth at the beginning of this stage. The lone engine carries the payload to orbit. At this, the Stage 2 engine takes 35 minutes to get to orbit and park Starlink satellites. About 64 minutes after launch, the rocket deploys smallsats into their orbits.
 
-### Joining a constellation
+### Join
 The orbiting smallsats take 2 weeks to distance themselves and take a position. Each smallsat is configured to occupy a position using: Orbit’s height from sea level, the angle from the equator, and angle from a fixed space direction Smallsat’s angle from a fixed space direction The smallsats are launched initially into a lower orbit. As orbital velocity decreases with altitude, the smallsat changes velocity to match with the target orbital plane. On arriving into the position, the smallsat will lock velocity. As the count of satellites locked into position increases, the constellation size increases. The constellation formation model is nicely depicted in {% include video id="rddTXl_7Wr8" provider="youtube" %}
 
-### On a mission
+### Run
 Once in orbit, a satellite becomes a constellation member. Its mission is to route packets from the terrestrial network, among satellites, and back to the terrestrial network. The satellites forward packets amongst themselves to expand the continuity of the network. Packets flow from the edge device to the Spacelink user terminal, which is a pizza-sized dish antenna. Packets are encrypted at the user terminal before beaming to the smallsat. The first smallsat inspects the destination address to route to another smallsat positioned in the packet direction. The last satellite closer to the destination coordinates will beam the packet down to all user terminals in its coverage. Only the user terminal will have a decryption key to read the packet. The entire packet end-to-end latency is close to 30ms - a huge milestone in internet service across the globe.
 
 {% include video id="m05abdGSOxY" provider="youtube" %}
 
-### Disposal
+### Dispose
 The long-term sustainability of space programs requires the safe post-mission disposal of satellites. FCC in the US requires satellite companies to disclose debris mitigation plans[14] before launching satellites. The risk of collision with other objects and casualty risk on re-entry is the main concerns listed in FCC regulation. Starlink aims to deorbit from 550km altitude to 200 km leading to re-entry into Earth’s atmosphere and burn. A smallsat is life expectancy is about five years. Starting from 2024 hundreds of satellites will be retired to prove the efficacy of the small satellite sunsetting plan.
 
 ## Satellite constellation internet - A paradigm shift
