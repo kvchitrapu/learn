@@ -32,11 +32,11 @@ In the next sections, we elaborate on small satellite constellations in LEO, whi
 ## LEO satellite constellations
 The LEO satellite launch technology attained an unprecedented level of precision and cost efficiency in the last decade. SpaceX Starlink, Amazon Kuiper tied to Blue Origins are two amply funded companies launching satellites. While both remain in early stages and secretive about the plans, netizens have widely gleaned SpaceX Starlink information. As of March 2021, Starlink has already launched 1,023 in 18 launches and is aiming to deploy a total of 1,440 to complete the initial constellation. According to the FCC filings, Starlink applied for 42,000 satellites to orbit in LEO to provide Internet service. Most of the information we present here is based on SpaceX Starlink satellite information on the Internet. In addition to delivering communication, satellites provide monitoring Earth and enhance space observation.
 
+Stacks of satellites launched into LEO to form a constellation orbiting around Earth. The satellites are sorted into multiple planes orchestrated to best serve internet in planned geographic cells. The satellites are managed at scale bringing economies of scale for the owning enterprise.
+
 ### LEO satellites
 SpaceX LEO satellites are small satellites called Starlink satellites. A Starlink satellite weighs around 227kg to 260kg. It orbits in LEO with a lifespan of three to four years. While there are tens of components, an LEO satellite typically has these key components: two redundant solar flat panels to power the satellite thrusters for position adjustment in the orbit, high-power phased array antennas for ground communication over Ku and Ka bands Optical inter-satellite links, The phased array antennas shoot narrow beams to 27,000 kmph orbiting Earth. The satellites’ orbits at 400km - 2000km above sea level.
 
-## Constellation
-Constellations are identical LEO satellites orbiting Earth in multiple planes. The smallsats are managed at scale bringing economies of scale for the owning enterprise. 
 
 ## The lifecycle of LEO satellites
 
@@ -55,16 +55,16 @@ The Stage 2 head is clamshell-like “fairing” to protect smallsats from launc
 ### Joining a constellation
 The orbiting smallsats take 2 weeks to distance themselves and take a position. Each smallsat is configured to occupy a position using: Orbit’s height from sea level, the angle from the equator, and angle from a fixed space direction Smallsat’s angle from a fixed space direction The smallsats are launched initially into a lower orbit. As orbital velocity decreases with altitude, the smallsat changes velocity to match with the target orbital plane. On arriving into the position, the smallsat will lock velocity. As the count of satellites locked into position increases, the constellation size increases. The constellation formation model is nicely depicted in {% include video id="rddTXl_7Wr8" provider="youtube" %}
 
-### Satellite on a mission
+### On a mission
 Once in orbit, a satellite becomes a constellation member. Its mission is to route packets from the terrestrial network, among satellites, and back to the terrestrial network. The satellites forward packets amongst themselves to expand the continuity of the network. Packets flow from the edge device to the Spacelink user terminal, which is a pizza-sized dish antenna. Packets are encrypted at the user terminal before beaming to the smallsat. The first smallsat inspects the destination address to route to another smallsat positioned in the packet direction. The last satellite closer to the destination coordinates will beam the packet down to all user terminals in its coverage. Only the user terminal will have a decryption key to read the packet. The entire packet end-to-end latency is close to 30ms - a huge milestone in internet service across the globe.
 
 {% include video id="m05abdGSOxY" provider="youtube" %}
 
-### Satellite disposal
+### Disposal
 The long-term sustainability of space programs requires the safe post-mission disposal of satellites. FCC in the US requires satellite companies to disclose debris mitigation plans[14] before launching satellites. The risk of collision with other objects and casualty risk on re-entry is the main concerns listed in FCC regulation. Starlink aims to deorbit from 550km altitude to 200 km leading to re-entry into Earth’s atmosphere and burn. A smallsat is life expectancy is about five years. Starting from 2024 hundreds of satellites will be retired to prove the efficacy of the small satellite sunsetting plan.
 
 ## Satellite constellation internet - A paradigm shift
-Based on current projections, the new LEO satellite constellations will break barriers to latency. The internet packet latency is proportional to the distance between source and destination. The operating transatlantic lowest latency between New Jersey and London is a little under 60ms. The Starlink service is expected to provide packets with 30ms. Additionally, a uniform service across the globe breathes life into a wide variety of applications. A few applications are:
+Based on current projections, the new LEO satellite constellations will **break barriers of low latency**. The internet packet latency is proportional to the distance between source and destination. The operating transatlantic cables in the ocean provide lowest latency between New Jersey and London which is a little under 60ms. The Starlink service is expected to provide packets with **30ms**. Additionally, a uniform service across the globe breathes life into a wide variety of applications. A few applications are:
 1. internet for remote areas (Rural Digital Opportunity Fund).
 2. end-to-end secure data services withing public cloud interworks. 
 3. GPS and internet communication for autonomous vehicles.
