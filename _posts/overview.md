@@ -3,12 +3,12 @@ Authors: [Ravi Chamarti](https://www.linkedin.com/in/ravi-chamarti-804538/), [Na
 
 ## Abstract
 
-In 2020, the COVID-19 pandemic escalated the urgency for internet access everywhere and everyone, especially in rural areas. COVID-19 lockdowns are temporary, but the under-connected population will have a lasting impact. Low-Earth Orbit (LEO) communication satellites recently pioneered by SpaceX's Starlink demonstrated is achievable.
+In 2020, the COVID-19 pandemic spotlighted the urgency of internet access around the globe, especially in remote areas. COVID-19 lockdowns are temporary, but the under-connected population will have a lasting impact. We need internet across the globe 
 
-With rapid breakthroughs in rocket launchers, satellites, small chips, favorable sentiments, and high investments, the LEO satellite constellations offers internet with a near constant low (30ms) latency. Such low latency global internet automated driving, data centers, supply chains including freight, agriculture, and other prominent industries. This paper discusses the advantages of LEO nanosat technology feasibility, challenges ahead, and issues in the offing.
+Low-Earth Orbit (LEO) communication satellites recently pioneered by SpaceX's Starlink demonstrated is achievable. A steady flow of breakthroughs in rocket launchers, satellites, small chips, favorable sentiments, and high investments strongly well positioned LEO satellite constellations to incredible nearly constant low latency around 30ms across the globe. We see remote area households, automated driving, data centers, supply chains including freight, agriculture and many other applications see a drastic improvement in service. We aimed to provide a walkthrough from LEO satellite constellation formation to satellite deactivation.
 
 ## Introduction
-Ever since the first satellite launch on Oct 4, 1957, the satellites steadily commanded a permanent spot in telecommnunications infrastructure. By 12/31/2021, there will be 3,372 (Union of Concerned Scientists) orbiting around Earth. Recent private funded space exploration has created a concourse to LEO satellite constellations. This paper gives an overview of LEO satellite constellations applied for internet. A sequel of this paper will give an in-depth analysis of technology, business, and ethical challenges.
+Ever since the first satellite launch on Oct 4, 1957, the satellites steadily commanded a permanent spot in telecommnunications infrastructure. By the end of 2021, there will be 3,372 (Union of Concerned Scientists) orbiting around Earth. Private companies in space exploration crreated a concourse to LEO satellite constellations. Here we present a broad picture with basic characteristics of satellite orbits, advantages LEO, satellite constellation formation, packet routing overview, and finally sunset of satellite. 
 
 ## Orbits and Satellites
 The satellite orbital distance impacts communications, observation, and remote sensing applications. The
@@ -27,7 +27,7 @@ Low-Earth Orbit objects revolve 160-2,000km above sea level. Most of the man-mad
 
 Small form factor electronic devices, long-lasting batteries, efficient solar panels, and rocket launchers to deliver satellites are some of the recent advancements in space technology that exploded the growth in satellites launched into this orbit. The LEO satellites have been shrinking in size while simultaneously lower launching costs. In the new millennium, SpaceX, TeleSat, and Amazon Kuiper have been in news with plans to launch thousands of satellites to form artificial constellations in space. With abundant funds, these companies aim to tackle the ubiquitous Internet problem along with confidential long-term overarching business goals. The companies plan to launch thousands of “small satellites” into numerous orbital planes to form a satellite constellation. Satellites further smaller in size namely micro and nanosatellites are pursued mostly by smaller players.
 
-In this paper, we discuss small satellite constellations in LEO, which are referred to as LEO satellites.  
+In the next sections, we elaborate on small satellite constellations in LEO, which are referred to as LEO satellites.  
 
 ## LEO satellite constellations 
 The LEO satellite launch technology attained an unprecedented level of precision and cost efficiency in the last decade.  SpaceX Starlink, Amazon Kuiper tied to Blue Origins are two amply funded companies launching satellites. While both remain in early stages and secretive about the plans, netizens have widely gleaned SpaceX Starlink information. As of March 2021, Starlink has already launched 1,023 in 18 launches and is aiming to deploy a total of 1,440 to complete the initial constellation. According to the FCC filings, Starlink applied for 42,000 satellites to orbit in LEO to provide Internet service. Most of the information we present here is based on SpaceX Starlink satellites information on the Internet. In addition to delivering communication, satellites provide monitoring Earth and enhance space observation.
@@ -54,26 +54,32 @@ The Stage 2 head is clamshell-like “fairing” to protect smallsats from launc
 ### Constellation formation
 The orbiting smallsats take 2 weeks to distance themselves and take a position. Each smallsat is configured to occupy a position using: Orbit’s height from sea level, the angle from the equator, and angle from a fixed space direction Smallsat’s angle from a fixed space direction The smallsats are launched initially into a lower orbit. As orbital velocity decreases with altitude, the smallsat changes velocity to match with the target orbital plane. On arriving into the position, the smallsat will lock velocity. As the count of satellites locked into position increases, the constellation size increases. The constellation formation model is nicely depicted in {% include video id="rddTXl_7Wr8" provider="youtube" %}
 
-### Functional phase
-Once in orbit, a satellite is a member of the constellation in routing packets from the terrestrial network. The satellite forward packets amongst themselves for reliability and continuity of the network. Packets flow from the edge device to the Spacelink user terminal, which is a pizza-sized dish antenna. Packets are encrypted at the user terminal before beaming to the smallsat. The first smallsat will inspect the destination address to route to a smallsat positioned in the same direction as the packet. The last satellite closer to the destination coordinates will beam the packet down to all user terminals in its coverage. Only the user terminal will have a decryption key to read the packet. The entire packet end-to-end latency is close to 30ms - a huge milestone in internet service across the globe.
+### On a mission
+Once in orbit, a satellite is a member of the constellation. Its mission is to route packets from the terrestrial network. The satellites forward packets amongst themselves for to expand continuity of the network. Packets flow from the edge device to the Spacelink user terminal, which is a pizza-sized dish antenna. Packets are encrypted at the user terminal before beaming to the smallsat. The first smallsat inspects the destination address to route to another smallsat positioned in the packet direction. The last satellite closer to the destination coordinates will beam the packet down to all user terminals in its coverage. Only the user terminal will have a decryption key to read the packet. The entire packet end-to-end latency is close to 30ms - a huge milestone in internet service across the globe. 
 
 {% include video id="m05abdGSOxY" provider="youtube" %}
 
-### Termination
-After 5 years of runtime satellite parts erode due to cosmic rays. Need to be decommissioned. The satellite is maneuvered out of the orbit and is ready to self-burn
+### Sunsetting satellites
+Long term sustainability of space programs requires safe post-mission dispossal of satellites. FCC in the US requires satellite companies to disclose debris mitigation plans[14] before launching satellites. The risk of collision with other objects and casuality risk on re-entry are the main concerns listed in FCC regulation. Starlink aims to deorbit from 550km altitude to 200 km leading to re-entry into Earth's atmosphere and burn. A smallsat is life expectancy is about five years. Starting from 2024 hundreds of satellites will be retired to prove efficacy of the small satellite sunsetting plan.
 
-## Applications
+## A paradigm shift
 
-A wide variety of applications are possible for smallsat internet. A few are:
-1. End-to-end secure cloud services. Datacenters/Kuiper
-2. Autonomous vehicles/Starlink
-3. Mobility market includes backhaul for 5G
-4. Government or military
-5. Underserved rural areas (Rural Digital Opportunity Fund)
-6. Asset tracking on aircraft, ship, logistics, fleet management
+Based on current projections, the new LEO satellite constellations will break barriers on latency. The intenet packet latency is proportional to the distance between source and destination. The operating transatlantic lowest latency between New Jersey and London is little under 60ms. The Starlink service is expected to provide packets with 30ms. Additionally, a uniform service across the globe breathes life into a wide variety of applications. A few are:
+1. internet for remote areas (Rural Digital Opportunity Fund).
+2. end-to-end secure data services withing public cloud interworks. 
+3. GPS and internet communication for autonomous vehicles.
+4. backhaul for 5G networks.
+5. custom secure communication for military and governments.
+6. asset tracking on aircraft, ship, logistics, fleet management.
+7. geo-dispersed collaborative organizations
+
+Many unforeseen applications will be innovated. Internet adoption increases global dissemination of information at faster than ever before impactong economies and geo-political conditions which are beyond the scope of this article. The owners of the satellite constellations have power to steer the direction of applications based on key parameters like price, location, and SLAs. They may limit application to a small set like inter-datacenter connectivity, remote area interntet, and automated driving or take up a global internet.
+
+## Challenges
+The road to global internet has predicatble challenges. The operating satellite constellation plans in public domain is aimed at sparsely populated areas. Additionally, satellite constellations have to within weather conditions and round the clock operational challenges. Scaling to global demand necessitates consensus with many countriese andd companiese spread across the world most notably spectrum allocation in various countries.
 
 ## Summary
-We are confident LEO satellites technology can provide ubiquitous internet. The path is curvy ahead. LEO satellites is breaking the barriers of traditional satellite communication. It has the potential to better level the field for 7 billion people around the globe. The LEO satellites will play a key role in inter-data center encrypted private channels, supply chain automation, mobility automation, and natural vegetation. Is this the next big thing?
+We are confident LEO satellite constellation can provide ubiquitous internet. The path is curvy ahead. The satellite constellations are breaking the barriers of traditional satellite and terrestrial communication. The technology has the potential to better level the field for seven billion people around the globe. The characteristics of satellite constellation internet aid inter-data center encrypted private channels, supply chain automation, mobility automation, natural vegetation and numerous other applications. It remains to be see the direction owners of satellite constellations take. The progress thus far has been towards global internet.
 
 ## References
 1. [A Basic Guide to small satellites](https://www.satelliteevolutiongroup.com/articles/leosat-April17.pdf)
@@ -87,7 +93,9 @@ We are confident LEO satellites technology can provide ubiquitous internet. The 
 10. [Starlink Satellites](https://space.skyrocket.de/doc_sdat/starlink-v1-0.htm)
 11. [Union of Concerned Scientists. “UCS Satellite Database.”](https://www.ucsusa.org/resources/satellite-database#.W7WcwpMza9Y.)
 12. [Starlink packet routing](https://caseyhandmer.wordpress.com/2020/09/23/starlink-packet-routing/)
- 
+13. [SpaceX launches Starlink satellites as it deorbits original ones](https://spacenews.com/spacex-launches-starlink-satellites-as-it-deorbits-original-ones/)
+14. [Mitigation of Orbital Debris in the New Space Age](https://docs.fcc.gov/public/attachments/DOC-363486A1.pdf)
+
 Om shanti shanti shanti
  
 
