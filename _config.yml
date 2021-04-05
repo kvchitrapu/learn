@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Kishore Chitrapu"
-  bio    : "Understand and share."
+  bio    : "good reference."
   links:
     - label: "Git"
       icon: "fab fa-fw fa-github"
